@@ -1,190 +1,388 @@
-# Global Superstore Sales Performance Analysis — Business Intelligence
+# Global Superstore Sales Performance & Business Intelligence Analysis
 
-An interactive Business Intelligence project developed in Power BI to analyze Global Superstore sales performance, profitability, customer segments, products, markets, and overall business performance.
+## AnalystLab Africa — Data Analytics Internship
+
+This repository contains my **Global Superstore data analytics projects developed during the AnalystLab Africa Data Analytics Internship Programme**, covering Week 2 and Week 3.
+
+The project progressed from business data exploration and performance analysis into advanced analysis, KPI development, DAX measures and an interactive Business Intelligence dashboard using Microsoft Power BI.
+
+---
+
+# Week 2 — Business Intelligence & Interactive Analysis
 
 ## Project Overview
 
-This project analyzes Global Superstore transactional data covering **2011–2014** to transform raw sales data into actionable business insights.
+The Week 2 project focused on transforming the Global Superstore transactional dataset into meaningful business insights.
 
-The analysis combines data preparation, business intelligence techniques, DAX measures, interactive visualizations, and business recommendations to help management understand **where sales and profit are coming from, which markets and categories are performing strongly, and where concentration and profitability risks exist.**
+The objective was to understand:
 
-## Business Problem
+* Sales performance
+* Profitability
+* Customer segments
+* Products and categories
+* Regions and markets
+* Business performance trends
 
-Global Superstore generates sales across multiple countries, markets, customer segments, and product categories. However, without an interactive Business Intelligence solution, it can be difficult to quickly identify:
+The analysis involved preparing and transforming the dataset, developing business-focused visualisations and identifying patterns that could support business decision-making.
 
-* Which markets contribute the most to sales
-* Which customer segments drive revenue
-* Which product categories perform strongest
-* Which products contribute significantly to profitability
-* How sales performance changes over time
-* Where the business may face concentration or margin risks
-* Where management should focus future growth efforts
+## Week 2 Tools
 
-The project therefore focuses on converting transactional data into a clear, interactive decision-support dashboard.
+* Microsoft Excel
+* Power Query
+* Microsoft Power BI
+* DAX
+* GitHub
+* Google Drive
 
-## Project Objective
+## Week 2 Analysis
 
-The objective of this project is to develop an interactive Power BI dashboard that provides management with a consolidated view of Global Superstore's business performance and supports data-driven decision-making.
+The analysis examined:
 
-The analysis focuses on:
+* Sales and profit performance
+* Sales by category
+* Profit by category
+* Customer segment performance
+* Regional and market performance
+* Product performance
+* Sales trends over time
+* Business insights and recommendations
 
-1. Evaluating overall sales and profitability performance
-2. Identifying the strongest markets and customer segments
-3. Understanding category and product performance
-4. Examining sales trends over time
-5. Identifying key business risks
-6. Highlighting growth opportunities
-7. Translating analytical findings into actionable recommendations
+The Week 2 analysis provided the foundation for the deeper investigation completed in Week 3.
 
-## Key Performance Indicators
+---
 
-The completed dashboard reports the following headline metrics:
+# Week 3 — Advanced Data Analysis, KPI Development & Business Intelligence Dashboard
 
-| KPI           |      Result |
-| ------------- | ----------: |
-| Total Sales   | **$12.64M** |
-| Total Profit  |  **$1.47M** |
-| Total Orders  |  **25.04K** |
-| Average Sales | **$246.49** |
-| Profit Margin |  **11.61%** |
+## Project Overview
 
-## Key Findings
+Week 3 continued with the **same Global Superstore dataset** used during Week 2.
 
-### 1. Sales Growth
+The focus shifted from exploratory analysis toward deeper business analysis, KPI development, calculated measures and interactive Business Intelligence reporting.
 
-Sales increased from approximately **$2.3M in 2011 to $4.3M in 2014**, indicating strong overall growth across the analysis period.
+The objective was to identify important business trends, investigate profitability concerns and translate the findings into actionable business recommendations.
 
-### 2. Consumer Segment Leads Revenue
+---
 
-The **Consumer segment** generated the highest sales contribution, making it the most significant customer segment in the business.
+# Key Business Objectives
 
-### 3. APAC Leads Markets
+The Week 3 analysis focused on:
 
-**APAC contributed approximately $3.59M, representing 28.36% of total sales**, making it the strongest individual market in the analysis.
+* Advanced sales analysis
+* Profitability analysis
+* Time-based performance
+* Product and category performance
+* Customer and segment performance
+* Regional and geographic performance
+* Discount and profitability analysis
+* KPI development
+* DAX measures
+* Business problem investigation
+* Interactive Business Intelligence reporting
 
-### 4. Technology Leads Categories
+---
 
-**Technology** was the strongest-performing product category by sales, highlighting its importance to overall business performance.
+# Key KPIs
 
-### 5. Top Products Drive Profit
+The final Power BI dashboard includes:
 
-The **Top 10 most profitable products generated approximately $130.5K in profit**, demonstrating the importance of identifying and protecting high-performing products.
+| KPI                          |  Result |
+| ---------------------------- | ------: |
+| **Total Sales**              | $12.64M |
+| **Total Profit**             |  $1.47M |
+| **Total Orders**             |  25.04K |
+| **Total Customers**          |   1,590 |
+| **Profit Margin**            |  11.61% |
+| **Average Sales per Order**  | $504.99 |
+| **Average Profit per Order** |  $34.80 |
 
-## Business Risks
+---
 
-### Customer Segment Concentration
+# Advanced Business Analysis
 
-The Consumer segment contributes significantly more revenue than other customer segments. Over-reliance on one segment could increase exposure if customer behaviour or demand changes.
+## Sales Performance
 
-### Market Concentration
+Global Superstore demonstrated consistent annual sales growth:
 
-APAC and EU together contribute **more than 50% of total sales**, creating a concentration risk if economic, competitive, or market conditions change in either region.
+| Year |  Sales |
+| ---- | -----: |
+| 2011 | $2.26M |
+| 2012 | $2.68M |
+| 2013 | $3.41M |
+| 2014 | $4.30M |
 
-### Margin Pressure
+Sales increased every year, with 2014 recording the strongest annual performance.
 
-The overall profit margin is **11.61%**, indicating that continued sales growth should be accompanied by careful monitoring of costs, product profitability, and pricing.
+Quarterly analysis also showed a recurring pattern, with Q4 consistently outperforming the other quarters.
 
-## Growth Opportunities
+---
 
-### Scale APAC and EU
+## Profitability Analysis
 
-The strong contribution from APAC and EU presents an opportunity to deepen market penetration, strengthen customer relationships, and expand high-performing product offerings.
+Annual profit also increased consistently:
 
-### Grow the Technology Category
+| Year |   Profit |
+| ---- | -------: |
+| 2011 | $248.94K |
+| 2012 | $307.42K |
+| 2013 | $406.94K |
+| 2014 | $504.17K |
 
-Technology is the strongest-performing category and represents an opportunity for continued investment, product expansion, and targeted marketing.
+### Profit by Category
 
-### Leverage High-Profit Products
+| Category            |   Profit |
+| ------------------- | -------: |
+| **Technology**      | $663.78K |
+| **Office Supplies** | $518.47K |
+| **Furniture**       | $285.20K |
 
-The strongest-performing products can be prioritized through targeted promotions, inventory planning, cross-selling, and customer retention strategies.
+Technology generated the highest category profit, while Furniture generated the lowest.
 
-## Recommendations
+---
 
-1. **Expand high-performing markets** by prioritizing APAC and EU while monitoring concentration risk.
+# Product & Sub-category Analysis
 
-2. **Increase investment in Technology** through targeted marketing, product expansion, and customer-focused campaigns.
+The analysis identified the strongest and weakest profit-generating sub-categories.
 
-3. **Protect and promote high-profit products** by prioritizing them in sales strategies, inventory planning, and promotional activities.
+### Top 3 Sub-categories
 
-4. **Diversify customer and market contributions** to reduce dependence on the Consumer segment and the strongest markets.
+1. **Copiers — $258.57K**
+2. **Phones — $216.72K**
+3. **Bookcases — $161.92K**
 
-5. **Monitor profit margins continuously** by evaluating product-level profitability, pricing, discounts, and operating costs rather than focusing solely on revenue growth.
+### Bottom 3 Sub-categories
 
-## Dashboard
+1. **Supplies — $22.58K**
+2. **Labels — $15.01K**
+3. **Fasteners — $11.53K**
 
-The Power BI dashboard provides an interactive view of:
+The Power BI dashboard also includes a Bottom 10 Products by Profit analysis to identify individual loss-making products.
+
+---
+
+# Customer Segment Analysis
+
+| Customer Segment |  Sales |   Profit |
+| ---------------- | -----: | -------: |
+| **Consumer**     | $6.51M | $749.24K |
+| **Corporate**    | $3.82M | $441.21K |
+| **Home Office**  | $2.31M | $277.01K |
+
+Consumer was the largest customer segment by both sales and profit.
+
+---
+
+# Geographic Analysis
+
+The Week 3 analysis examined sales and profitability across regions, markets and countries.
+
+Central generated the highest absolute regional profit at approximately **$311.40K**.
+
+Two markets were identified as important profitability concerns:
+
+### EMEA
+
+* Sales: **$806.16K**
+* Profit Margin: **2.02%**
+
+### Southeast Asia
+
+* Sales: **$884.42K**
+* Profit Margin: **5.45%**
+
+These results indicate that some markets generate meaningful sales but convert a relatively small proportion of revenue into profit.
+
+---
+
+# Discount Analysis
+
+A deeper investigation was conducted into discounting and Furniture profitability.
+
+| Discount Band | Profit Margin |
+| ------------- | ------------: |
+| **0%**        |        24.19% |
+| **1–10%**     |        16.49% |
+| **11–20%**    |         4.62% |
+| **21–30%**    |         6.18% |
+| **31–40%**    |       -25.40% |
+| **41–50%**    |       -48.22% |
+| **51–85%**    |      -106.34% |
+
+The analysis found a strong association between higher discount levels and weaker Furniture profitability.
+
+The 51–85% discount band generated approximately **-$159.55K in profit** on approximately **$150.05K in sales**.
+
+This represents an important profitability risk requiring management attention.
+
+---
+
+# Key Business Problems
+
+## 1. Furniture Profitability
+
+Furniture generated approximately **$4.11M in sales** but only **$285.20K in profit**, making it the weakest major category by profit.
+
+## 2. High Discount Levels
+
+Higher discount bands were associated with significantly weaker Furniture profitability, with discount bands above 30% becoming loss-making in the analysed data.
+
+## 3. Regional Profitability
+
+EMEA and Southeast Asia demonstrated relatively weak profit margins despite generating meaningful sales.
+
+## 4. Loss-making Products
+
+The Bottom 10 Products by Profit analysis identified individual products generating negative profit.
+
+---
+
+# Key Business Recommendations
+
+1. **Review Furniture discount controls**, particularly transactions involving discounts above 30%.
+2. **Investigate loss-making products** and review their pricing, costs and discounting.
+3. **Conduct a deeper profitability review of EMEA and Southeast Asia.**
+4. **Continue leveraging high-performing Technology products and categories.**
+5. **Align planning with seasonal performance**, particularly the recurring strength of Q4.
+
+---
+
+# DAX Measures & Calculated Metrics
+
+The Week 3 Power BI dashboard uses DAX measures to support KPI development and interactive analysis.
+
+Key measures include:
 
 * Total Sales
 * Total Profit
 * Total Orders
-* Average Sales
+* Total Customers
 * Profit Margin
-* Top 10 Most Profitable Products
-* Sales Contribution by Market
-* Sales by Country
-* Yearly performance
-* Customer segments
-* Product categories
-* Interactive filters for Year, Region, Segment, Category, and Market
+* Average Sales per Order
+* Average Profit per Order
+* Average Discount
 
-### Dashboard Preview
+These measures allow business performance to be analysed dynamically through the dashboard filters.
 
-The final dashboard export will be included in the `03_Dashboard_Export` folder of this repository.
+---
 
-## Tools & Technologies
+# Interactive Power BI Dashboard
 
-* **Microsoft Power BI** — Dashboard development and interactive visualization
-* **Power Query** — Data preparation and transformation
-* **DAX** — KPI and analytical measure development
-* **Microsoft Excel** — Data inspection and supporting analysis
-* **Global Superstore Dataset** — Transactional sales data
+The Week 3 Power BI report contains four analytical pages:
 
-## Project Deliverables
+### 1. Global Superstore Sales & Profit Analysis
 
-This repository contains the four official deliverables for the project:
+Provides an overall view of sales, profit, KPIs and trends.
 
-### 01 — Business Intelligence Overview Report
+### 2. Global Superstore Product Performance
 
-Provides the business context, problem statement, objectives, analytical questions, dataset overview, methodology, and business analysis framework.
+Focuses on products, categories, sub-categories and profitability.
 
-### 02 — Power BI Project File
+### 3. Global Superstore Customer/Segment Analysis
 
-Contains the completed interactive Power BI dashboard, data model, DAX measures, transformations, visualizations, and interactive filtering functionality.
+Examines customer segments, customer contribution and top customers.
 
-### 03 — Dashboard Export
+### 4. Global Superstore Geographic Analysis
 
-Contains the final static export of the Power BI dashboard for presentation and review.
+Examines sales and profit across regions, markets and countries.
 
-### 04 — Executive Summary Report
+Interactive filters allow analysis by:
 
-Provides a concise management-level summary of the major findings, business risks, opportunities, and recommendations identified through the analysis.
+* Year
+* Region/Country
+* Market
+* Category
+* Sub-category
+* Customer Segment
 
-## Project Structure
+---
 
-```text
-Global-Superstore-Sales-Performance-Analysis-Business-Intelligence/
-│
-├── README.md
-│
-├── 01_Business_Intelligence_Overview_Report/
-│   └── Business_Intelligence_Overview_Report.pdf
-│
-├── 02_Power_BI_Project/
-│   └── Global_Superstore_Sales_Performance_Analysis.pbix
-│
-├── 03_Dashboard_Export/
-│   └── Global_Superstore_Dashboard.pdf
-│
-└── 04_Executive_Summary_Report/
-    └── Executive_Summary_Report.pdf
-```
+# Tools Used
 
-## Conclusion
+* **Microsoft Power BI**
+* **DAX**
+* **Power Query**
+* **Microsoft Excel**
+* **GitHub**
+* **Google Drive**
 
-This project demonstrates how transactional business data can be transformed into an interactive Business Intelligence solution that moves beyond reporting to support business decision-making.
+---
 
-The analysis highlights strong sales growth, the importance of the Consumer segment, APAC's leading market contribution, Technology's category performance, and the profitability contribution of top products.
+# Project Progression
 
-At the same time, the findings highlight the need to manage customer and market concentration while maintaining healthy profit margins.
+The project demonstrates the progression from:
 
-The resulting dashboard provides management with a practical tool for monitoring performance, identifying opportunities, managing risks, and making more informed business decisions.
+**Raw Transactional Data**
+
+↓
+
+**Data Preparation & Exploration**
+
+↓
+
+**Business Performance Analysis**
+
+↓
+
+**Advanced Analysis**
+
+↓
+
+**KPI Development**
+
+↓
+
+**DAX Measures**
+
+↓
+
+**Interactive Power BI Dashboard**
+
+↓
+
+**Business Insights**
+
+↓
+
+**Data-driven Recommendations**
+
+---
+
+# Learning Outcome
+
+This project strengthened my practical ability to use data analytics and Business Intelligence techniques to move beyond simply presenting numbers and instead communicate information that can support business decisions.
+
+The Week 3 work particularly strengthened my experience in:
+
+* Advanced business analysis
+* KPI development
+* DAX
+* Power BI dashboard design
+* Time-based analysis
+* Profitability analysis
+* Geographic analysis
+* Customer segmentation
+* Discount analysis
+* Business storytelling
+* Data-driven recommendations
+
+---
+
+# Deliverables
+
+The project deliverables include:
+
+* Power BI Business Intelligence Dashboard
+* Dashboard PDF/screenshots
+* Advanced Business Analysis
+* DAX Measures & Calculated Metrics Documentation
+* Business Insights & Recommendations Report
+* Updated README documentation
+
+---
+
+## Author
+
+**Samson Arawande**
+
+Data Analyst | Business Intelligence Analyst
+
+**Excel • Power BI • DAX**
