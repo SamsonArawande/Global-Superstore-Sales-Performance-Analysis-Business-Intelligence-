@@ -1,6 +1,6 @@
 # Global Superstore Sales Performance & Business Intelligence Analysis
 
-## AnalystLab Africa — Data Analytics Internship
+## AnalystLab Africa — Data Analytics Project
 
 This repository contains my **Global Superstore data analytics projects developed during the AnalystLab Africa Data Analytics Internship Programme**, covering Week 2 and Week 3.
 
